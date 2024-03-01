@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/ex4_2.css">
+</head>
+<body>
+    <h1>Ideal Weight Calculator Program</h1>
+    <form>
+        <p>Name:
+            <input type="text" id="inName" required>
+        </p>
+        <p>Sexo:
+            <input type="radio" name="sex" id="inMasculine" required> Masculine
+            <input type="radio" name="sex" id="inFeminine" required> Feminine
+        </p>
+        <p> Height:
+            <input type="number" min="0" step="0.01" id="inHeight" required>
+        </p>
+        <input type="submit" value="Calculate Ideal Weight">
+        <input type="reset" value="Clear Fields">
+    </form>
+    <h3></h3>
+    <script src="js/ex4_2.js"></script>
+</body>
+</html>
