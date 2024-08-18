@@ -7,7 +7,7 @@ do {
     }
 } while (num == 0 || isNaN(num))
 let pairs = `Pairs between 1 and ${num}: `
-for (let i = 2; i <= num; i = i + 2) {
+for (let i = 0; i <= num; i = i + 2) {
     pairs = pairs + i + ", "
 }
 alert(pairs)
