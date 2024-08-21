@@ -8,14 +8,16 @@ frm.addEventListener("submit", (e) => {
 
     const number = Number(frm.inNumber.value)
 
-    let divisorNumber = 0
+    let hasDivider = 0
 
-    for (let i = 1; i <= number; i++) {
+    for (let i = 2; i <= number / 2; i++) {
         if (number % i == 0) {
-            divisorNumber++
+            hasDivider = 1
+            break
         }
     }
-    if (divisorNumber == 2) {
+
+    if (number > 1 && !hasDivider) {
         answer = `${number} is prime.`
     } else {
         answer = `${number} is not prime.`
