@@ -1,0 +1,23 @@
+h1 {
+    border-bottom-style: inset;
+}
+
+pre {
+    font-size: 1.2em;
+}
+
+.blue-font {
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+.display {
+    display: inline;
+}
+
+.italic {
+    font-style: italic;
+}
